@@ -1,3 +1,11 @@
+GIT
+  remote: git@github.com:hkdnet/ruboty-karma.git
+  revision: 306dd017124d403324a13506ae1903e4b2297738
+  branch: use_template
+  specs:
+    ruboty-karma (0.1.1)
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -48,8 +56,6 @@ GEM
       ruboty
     ruboty-hr (1.0.0)
       ruboty
-    ruboty-karma (0.1.0)
-      ruboty
     ruboty-lgtm (0.0.3)
       faraday
       faraday_middleware
@@ -91,7 +97,7 @@ DEPENDENCIES
   ruboty-google_image
   ruboty-help_query
   ruboty-hr
-  ruboty-karma
+  ruboty-karma!
   ruboty-lgtm
   ruboty-redis
   ruboty-replace

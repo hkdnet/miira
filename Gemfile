@@ -14,4 +14,5 @@ gem 'ruboty-help_query'
 gem 'ruboty-ruby', '>= 0.0.2'
 gem 'ruboty-echo_to', '~> 1.0.1'
 gem 'ruboty-hr'
-gem 'ruboty-karma'
+gem 'ruboty-karma', git: 'git@github.com:hkdnet/ruboty-karma.git',
+                    branch: 'use_template'
