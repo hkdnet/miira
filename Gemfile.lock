@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/hkdnet/ruboty-google_image.git
+  revision: cf402c2ceed047129ef86444f608a3a353214972
+  specs:
+    ruboty-google_image (0.1.0)
+      faraday
+      faraday_middleware
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -39,10 +48,6 @@ GEM
     ruboty-echo (0.1.0)
       ruboty
     ruboty-echo_to (1.0.1)
-      ruboty
-    ruboty-google_image (0.0.7)
-      faraday
-      faraday_middleware
       ruboty
     ruboty-help_query (1.0.1)
       ruboty
@@ -88,7 +93,7 @@ DEPENDENCIES
   ruboty-cron
   ruboty-echo
   ruboty-echo_to (~> 1.0.1)
-  ruboty-google_image
+  ruboty-google_image!
   ruboty-help_query
   ruboty-hr
   ruboty-karma (~> 0.1.3)
