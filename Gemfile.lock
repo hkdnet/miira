@@ -44,8 +44,6 @@ GEM
       faraday
       faraday_middleware
       ruboty
-    ruboty-help_query (1.0.1)
-      ruboty
     ruboty-hr (1.0.0)
       ruboty
     ruboty-karma (0.3.0)
@@ -89,7 +87,6 @@ DEPENDENCIES
   ruboty-echo
   ruboty-echo_to (~> 1.0.1)
   ruboty-google_image
-  ruboty-help_query
   ruboty-hr
   ruboty-karma
   ruboty-lgtm
