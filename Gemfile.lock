@@ -46,7 +46,7 @@ GEM
       ruboty
     ruboty-hr (1.0.0)
       ruboty
-    ruboty-karma (0.4.2)
+    ruboty-karma (0.4.3)
       ruboty
     ruboty-lgtm (0.0.3)
       faraday
