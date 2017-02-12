@@ -16,5 +16,3 @@ gem 'ruboty-ruby', '>= 0.0.2'
 gem 'ruboty-echo_to', '~> 1.0.1'
 gem 'ruboty-hr'
 gem 'ruboty-karma'
-
-gem 'ruboty-http_sample', github: 'hkdnet/ruboty-http_sample'
