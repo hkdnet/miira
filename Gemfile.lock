@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/hkdnet/ruboty-http_sample.git
+  revision: 4fd5ff376684c9e190f60b28407c9c47e14abeea
+  specs:
+    ruboty-http_sample (0.1.0)
+      ruboty (~> 1.3)
+      sinatra (~> 1.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -19,6 +27,9 @@ GEM
     mem (0.1.5)
     minitest (5.10.1)
     multipart-post (2.0.0)
+    rack (1.6.5)
+    rack-protection (1.5.3)
+      rack
     rake (11.3.0)
     redis (3.3.1)
     redis-namespace (1.5.2)
@@ -68,9 +79,14 @@ GEM
     ruboty-sonar (1.0.1)
       gems
       thor
+    sinatra (1.4.8)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
     slop (4.4.1)
     thor (0.19.1)
     thread_safe (0.3.5)
+    tilt (2.0.6)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     xrc (0.1.8)
@@ -87,6 +103,7 @@ DEPENDENCIES
   ruboty-echo_to (~> 1.0.1)
   ruboty-google_image
   ruboty-hr
+  ruboty-http_sample!
   ruboty-karma
   ruboty-lgtm
   ruboty-redis
