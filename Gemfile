@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-ruby '2.3.0'
-
 gem 'rake'
 gem 'ruboty-replace'
 gem 'ruboty-alias'
@@ -16,3 +14,5 @@ gem 'ruboty-ruby', '>= 0.0.2'
 gem 'ruboty-echo_to', '~> 1.0.1'
 gem 'ruboty-hr'
 gem 'ruboty-karma'
+
+gem 'ruboty-a3rt_talk', github: 'hkdnet/ruboty-a3rt_talk'
