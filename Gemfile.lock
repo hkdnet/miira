@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/hkdnet/ruboty-a3rt_talk.git
-  revision: dfeffe426c79085cb277ed7b97c9f64b3cb01f73
+  revision: bbaa8d20389393cf9b07005791ca40429fcca782
   specs:
     ruboty-a3rt_talk (0.1.0)
       a3rt-talk (~> 0.1)
