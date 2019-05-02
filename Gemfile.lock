@@ -8,19 +8,19 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    a3rt-talk (0.1.1)
-    activesupport (5.2.0)
+    a3rt-talk (0.1.2)
+    activesupport (5.2.3)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     chrono (0.4.0)
       activesupport
-    concurrent-ruby (1.0.5)
-    dotenv (2.4.0)
+    concurrent-ruby (1.1.5)
+    dotenv (2.7.2)
     event_emitter (0.2.6)
     eventmachine (1.2.7)
-    faraday (0.15.1)
+    faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.10.1)
       faraday (>= 0.7.4, < 1.0)
@@ -29,15 +29,15 @@ GEM
       websocket-driver (>= 0.5.1)
     gems (1.1.1)
       json
-    i18n (1.0.1)
+    i18n (1.6.0)
       concurrent-ruby (~> 1.0)
-    json (2.1.0)
+    json (2.2.0)
     mem (0.1.5)
     minitest (5.11.3)
     multi_json (1.13.1)
     multipart-post (2.0.0)
-    rake (12.3.1)
-    redis (4.0.1)
+    rake (12.3.2)
+    redis (4.1.0)
     redis-namespace (1.6.0)
       redis (>= 3.0.4)
     ruboty (1.3.0)
@@ -56,7 +56,7 @@ GEM
       ruboty
     ruboty-echo_to (1.0.1)
       ruboty
-    ruboty-google_image (0.1.0)
+    ruboty-google_image (0.1.1)
       faraday
       faraday_middleware
       ruboty
@@ -79,7 +79,7 @@ GEM
     ruboty-search_plugin (1.0.0)
       ruboty
       ruboty-sonar
-    ruboty-slack_rtm (3.1.0)
+    ruboty-slack_rtm (3.1.1)
       faraday (~> 0.11)
       ruboty (>= 1.1.4)
       slack-api (~> 1.6)
@@ -93,11 +93,11 @@ GEM
       faye-websocket (~> 0.10.6)
       multi_json (~> 1.0, >= 1.0.3)
     slop (4.6.2)
-    thor (0.20.0)
+    thor (0.20.3)
     thread_safe (0.3.6)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    websocket (1.2.5)
+    websocket (1.2.8)
     websocket-client-simple (0.3.0)
       event_emitter
       websocket
@@ -125,5 +125,8 @@ DEPENDENCIES
   ruboty-search_plugin
   ruboty-slack_rtm
 
+RUBY VERSION
+   ruby 2.6.3p62
+
 BUNDLED WITH
-   1.16.1
+   1.17.2
