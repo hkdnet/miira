@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/hkdnet/ruboty-a3rt_talk.git
+  remote: https://github.com/hkdnet/ruboty-a3rt_talk.git
   revision: 613e5600b9f853e5dedfd1265fc7a98c1fbd8811
   specs:
     ruboty-a3rt_talk (0.1.0)
@@ -126,7 +126,7 @@ DEPENDENCIES
   ruboty-slack_rtm
 
 RUBY VERSION
-   ruby 2.6.3p62
+   ruby 2.7.2p137
 
 BUNDLED WITH
-   1.17.2
+   2.1.4
