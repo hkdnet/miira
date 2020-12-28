@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
 ruby ENV['CUSTOM_RUBY_VERSION'] || '2.7.2'
 
 gem 'rake'
@@ -18,3 +20,6 @@ gem 'ruboty-hr'
 gem 'ruboty-karma'
 
 gem 'ruboty-a3rt_talk', github: 'hkdnet/ruboty-a3rt_talk'
+
+gem "faye-websocket", ">= 0.11.0"
+gem "slack-api", github: 'hkdnet/slack-ruby-gem', branch: 'fix-ws-vul'
