@@ -6,13 +6,24 @@ GIT
       a3rt-talk (~> 0.1)
 
 GIT
+  remote: https://github.com/hkdnet/ruboty-slack_rtm
+  revision: 8a556a846db2f58667d12f75d57fc6e39780eba0
+  branch: master
+  specs:
+    ruboty-slack_rtm (3.2.1)
+      faraday (>= 1.0)
+      ruboty (>= 1.1.4)
+      slack-api (~> 1.6)
+      websocket-client-simple (~> 0.3.0)
+
+GIT
   remote: https://github.com/hkdnet/slack-ruby-gem
-  revision: 6619666cc45889ef44676935f50f7863dedf2874
+  revision: 81ce64e8717b0f97a87b17af8baa111c00b3cf6a
   branch: fix-ws-vul
   specs:
     slack-api (1.6.1)
-      faraday (~> 0.11)
-      faraday_middleware (~> 0.10.0)
+      faraday (>= 1.0)
+      faraday_middleware (>= 1.0)
       faye-websocket (~> 0.11.0)
       multi_json (~> 1.0, >= 1.0.3)
 
@@ -32,10 +43,11 @@ GEM
     dotenv (2.7.6)
     event_emitter (0.2.6)
     eventmachine (1.2.7)
-    faraday (0.17.3)
+    faraday (1.2.0)
       multipart-post (>= 1.2, < 3)
-    faraday_middleware (0.10.1)
-      faraday (>= 0.7.4, < 1.0)
+      ruby2_keywords
+    faraday_middleware (1.0.0)
+      faraday (~> 1.0)
     faye-websocket (0.11.0)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
@@ -89,14 +101,10 @@ GEM
     ruboty-search_plugin (1.0.0)
       ruboty
       ruboty-sonar
-    ruboty-slack_rtm (3.2.1)
-      faraday (~> 0.11)
-      ruboty (>= 1.1.4)
-      slack-api (~> 1.6)
-      websocket-client-simple (~> 0.3.0)
     ruboty-sonar (1.0.1)
       gems
       thor
+    ruby2_keywords (0.0.2)
     slop (4.8.2)
     thor (1.0.1)
     tzinfo (2.0.4)
@@ -129,7 +137,7 @@ DEPENDENCIES
   ruboty-replace
   ruboty-ruby (>= 0.0.2)
   ruboty-search_plugin
-  ruboty-slack_rtm
+  ruboty-slack_rtm!
   slack-api!
 
 RUBY VERSION
