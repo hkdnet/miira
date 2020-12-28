@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-ruby ENV['CUSTOM_RUBY_VERSION'] || '2.7.2'
+ruby ENV['CUSTOM_RUBY_VERSION'] || '3.0.0'
 
 gem 'rake'
 gem 'ruboty-replace'
